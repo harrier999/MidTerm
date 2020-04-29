@@ -1,4 +1,8 @@
 package harrier999._MidTerm;
+import java.io.File;
+import java.util.Scanner;
+import java.io.FileReader;
+
 
 /**
  * Hello world!
@@ -12,8 +16,9 @@ public class App
     	
         Scanner in = new Scanner(reader);
         System.out.print("Enter the keyword you are looking for:");
-        
-        while(reader.read()) {
+        Scanner enter = new Scanner(System.in);
+       word = enter.next();
+        while(in.hasNextLine())) {
         	String oneLine = in.nextLine;
         	if(oneLine.contains(word)) {
         		System.out.println(oneLine);
